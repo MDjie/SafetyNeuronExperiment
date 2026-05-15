@@ -1,0 +1,31 @@
+{
+  "scoring_method": "cost model",
+  "baseline_score_mean": 5.0142614364624025,
+  "chat_reference_score_mean": -15.02359130859375,
+  "causal_scores": {
+    "patch_chat_top123474": {
+      "baseline_mean": 5.0142614364624025,
+      "patched_mean": -12.712348480224609,
+      "chat_mean": -15.02359130859375,
+      "causal_effect": 0.8846561626250405,
+      "causal_score_raw": -17.72660991668701,
+      "causal_score_std": 12.362240559032491,
+      "improved_count": 187,
+      "degraded_count": 13,
+      "unchanged_count": 0,
+      "total": 200
+    },
+    "patch_chat_layer30": {
+      "baseline_mean": 5.0142614364624025,
+      "patched_mean": 5.469578552246094,
+      "chat_mean": -15.02359130859375,
+      "causal_effect": -0.02272284967739518,
+      "causal_score_raw": 0.4553171157836914,
+      "causal_score_std": 7.020246261949321,
+      "improved_count": 95,
+      "degraded_count": 105,
+      "unchanged_count": 0,
+      "total": 200
+    }
+  }
+}
